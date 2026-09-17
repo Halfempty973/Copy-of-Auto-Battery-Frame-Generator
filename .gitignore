@@ -1,0 +1,16 @@
+# dependencies & build toolchain (portable Node lives in tools/)
+node_modules/
+tools/
+
+# build output (the committed deliverable is the copy in the repo root)
+dist/
+
+# test artifacts
+test/out/
+
+# misc
+*.log
+Thumbs.db
+
+# machine-specific local tooling config
+.claude/

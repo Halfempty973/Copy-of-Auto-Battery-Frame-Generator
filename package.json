@@ -1,0 +1,21 @@
+{
+  "name": "battery-frame-generator",
+  "version": "1.0.0",
+  "description": "Generate 3D-printable battery cell frames (STEP) for 21700 cells, spot-welding",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "spike": "node build.mjs --spike"
+  },
+  "dependencies": {
+    "clipper-lib": "6.4.2",
+    "replicad": "0.23.1",
+    "replicad-opencascadejs": "0.23.0",
+    "replicad-threejs-helper": "0.23.0",
+    "three": "0.171.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.2"
+  }
+}
